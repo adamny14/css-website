@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hofstra University Computer Science Society</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.19/dist/jquery.flip.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    // About Us
+    $(".card").flip({
+      axis: 'x',
+      trigger: 'hover'
+    });
+  });
+
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row" style="height:200px;">
+      <div class="col-md-offset-4 col-md-4">
+        <div class="card" style="height:inherit;">
+          <div class="front" style="height:inherit;">
+            Hello
+          </div>
+          <div class="back">
+            Goodbye
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
