@@ -11,7 +11,7 @@
   <body>
     <div class="container-fluid">
       <div class="page-header">
-        <h1 class="centered-text">CSS Website Development </h1>
+        <h1>CSS Website Development </h1>
 
         </div>
       </div>
