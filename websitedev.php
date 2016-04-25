@@ -21,6 +21,7 @@
       <div class="row">
         <div class ="col-sm-2">
           <p> Hello it's me </p>
+          <p> Good day </p>
         </div>
         <div class="col-xs-10">
         </div>
